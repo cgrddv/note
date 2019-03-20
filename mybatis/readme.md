@@ -10,4 +10,11 @@
 ## 3 做事务处理 使用@Transactional
   https://blog.csdn.net/nextyu/article/details/78669997
 
-  
+## 4 Mybatis动态语句
+###
+    // 已有Condition condition的情况，在统一接口追加参数
+    condition.and()
+        .andIsNull("deletedAt");
+        
+    SqlHelper 提供了很多sql语句模板
+###
