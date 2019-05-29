@@ -6,8 +6,9 @@
 增加\`
 
 ## 2 做字段重复性验证时，配置字段为候选码即可，不必进行查询  
-
-## 3 做事务处理 使用@Transactional
+  问题 ：多条件或者复杂条件时无法做duplicate 字段验证
+  还是安安稳稳去写单独的查询吧！
+## 3 做事务处理 使用@Transactionals
   https://blog.csdn.net/nextyu/article/details/78669997
 
 ## 4 Mybatis动态语句
