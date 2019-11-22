@@ -7,3 +7,4 @@
 * git gc --aggressive --prune=now
 * git push --force --all
 
+## 远程需要赋权限 chmod 777 -R ./
